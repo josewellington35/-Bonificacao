@@ -18,7 +18,7 @@ switch ($pagina) {
 		include 'app/views/funcionarios/editarFuncionarios.php';
 		break;
 	case 'deletFuncionario':
-		header("Location: php/Funcionario/deleteFuncionario.php");;
+		header("Location: php/Funcionario/deleteFuncionario.php");
 		break;
     case 'cadastroFuncionarios':
 		include 'app/views/funcionarios/cadastroFuncionario.php';
